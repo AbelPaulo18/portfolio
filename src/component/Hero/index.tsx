@@ -20,7 +20,7 @@ export const Hero = (props: Props) => {
     <div className="flex flex-col h-screen items-center justify-center space-y-8 text-center overflow-hidden">
       <BackgroundShapes />
       <img
-        className="relative rounded-full self-center w-32 h-32 "
+        className="relative rounded-full self-center w-32 h-32 shadow-lg shadow-[#1e1e]/10"
         src="https://avatars.githubusercontent.com/u/85404813?v=4"
         alt=""
       />
