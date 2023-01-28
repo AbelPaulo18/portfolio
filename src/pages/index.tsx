@@ -1,6 +1,8 @@
 import { Colors } from "@/assets/Colors";
+import { About } from "@/component/About";
 import { Header } from "@/component/Header";
 import { Hero } from "@/component/Hero";
+import { WorkExperience } from "@/component/WorkExperience";
 import { NextPage } from "next";
 import Head from "next/head";
 
@@ -13,12 +15,18 @@ const Home: NextPage = () => {
 
       <Header />
 
-      <section id="hero" className="snap-center">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About */}
-      {/* Experience */}
+      <section id="about" className="snap-center">
+        <About />
+      </section>
+
+      <section id="experience" className="snap-center">
+        <WorkExperience />
+      </section>
+
       {/* Skills */}
       {/* Projects */}
       {/* Contact me */}

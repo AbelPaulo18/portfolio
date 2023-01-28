@@ -6,4 +6,12 @@
   .heroButton {
     @apply uppercase text-xs border border-[#242424] px-5 py-3 font-semibold rounded-full text-gray-500 tracking-widest transition-all hover:border-[#2e2e]/20 hover:text-[#2e2e]/30;
   }
+
+  .portfolioSections {
+    @apply h-screen relative flex flex-col text-center max-w-4xl md:flex-row mx-auto px-5 justify-evenly items-center md:text-left;
+  }
+
+  .titles {
+    @apply absolute top-20 uppercase text-gray-500 font-semibold tracking-[20px];
+  }
 }
